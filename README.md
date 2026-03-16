@@ -1,6 +1,6 @@
 # 🚀 Geospatial & Cloud Native Engineer
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=005571&height=220&section=header&text=Geospatial%20%26%20Cloud%20Dev&fontSize=70&animation=fadeIn&fontColor=ffffff" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=005571&height=200&section=header&text=Geospatial%20Cloud%20Engineer&fontSize=60" />
 </p>
 
 ## 👤 Introduction
