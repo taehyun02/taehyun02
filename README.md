@@ -172,7 +172,7 @@ Responsibilities
 
 ## 📚 Teaching Experience
 
-### 코딩 동아리 (Python Study Group Mentor) – Debug
+### 코딩 동아리 (Python Study Group Mentor) – Debug (2025 ~ 2026)
 
 Python 기초 프로그래밍 교육 진행
 
