@@ -17,6 +17,7 @@
 <p>
   <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white">
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white">
+  <img src="https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white">
   <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black">
   <img src="https://img.shields.io/badge/VirtualBox-183A61?style=for-the-badge&logo=virtualbox&logoColor=white">
   <img src="https://img.shields.io/badge/Ubuntu-E94333?style=for-the-badge&logo=ubuntu&logoColor=white">
@@ -68,12 +69,12 @@ This experience builds the foundation for **navigation data analysis and HD Map 
 
 ---
 
-## 🏆 Current Project: Watt-Up
-- **Description:** Team mini project for developing an EV charging station information service
-- **Role:** Backend development and deployment infrastructure
-- **Key Skills:** FastAPI, PostgreSQL, MongoDB, Docker, Docker Compose, Kubernetes, Kafka, Debezium
-- **Focus:** Implementing backend APIs, managing containerized services, and deploying the system on Kubernetes with a CDC-based data pipeline
-- **Architecture:** Kubernetes-based microservice architecture with Nginx gateway, FastAPI backend services, PostgreSQL (PostGIS) primary database, and CDC data pipeline using Debezium, Kafka, and MongoDB
+## 🏆 Project: Watt-Up (Hyundai Autoever Cloud Training Mini Project, Completed)
+- **Description:** Team mini project for developing an EV charging station information service during Hyundai Autoever Cloud Training program
+- **Role:** Backend development and deployment infrastructure design
+- **Key Skills:** FastAPI, PostgreSQL(PostGIS), MongoDB, Docker, Docker Compose, Kubernetes, Kafka, Debezium, Jenkins
+- **Focus:** Implementing backend APIs, managing containerized services, configuring Jenkins-based CI/CD pipeline for automated Docker image build workflow, and deploying the system on Kubernetes with a CDC-based data pipeline
+- **Architecture:** Kubernetes-based microservice architecture with Nginx gateway, FastAPI backend services, PostgreSQL(PostGIS) primary database, Jenkins CI/CD pipeline, and CDC data pipeline using Debezium, Kafka, and MongoDB
 
 ---
 
