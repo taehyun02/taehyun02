@@ -1,6 +1,6 @@
-# 🚀 Geospatial & Cloud Native Engineer
+# 🚀 Cloud-Native DevOps Engineer for Mobility Platforms
 <p align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=005571&height=200&section=header&text=Geospatial%20Cloud%20Engineer&fontSize=60" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,25&height=260&section=header&text=Cloud-Native%20DevOps%20Engineer&fontSize=52&fontColor=ffffff" />
 </p>
 
 ## 👤 Introduction
@@ -71,7 +71,7 @@ This experience builds the foundation for **navigation data analysis and HD Map 
 
 ## 🏆 Project: Watt-Up (Hyundai Autoever Cloud Training Mini Project, Completed)
 - **Description:** Team mini project for developing an EV charging station information service during Hyundai Autoever Cloud Training program
-- **Role:** Backend development and deployment infrastructure design
+- **Role:** - **Role:** Backend API implementation and containerized service deployment with CI/CD automation using Docker, Kubernetes, and Jenkins
 - **Key Skills:** FastAPI, PostgreSQL(PostGIS), MongoDB, Docker, Docker Compose, Kubernetes, Kafka, Debezium, Jenkins
 - **Focus:** Implementing backend APIs, managing containerized services, configuring Jenkins-based CI/CD pipeline for automated Docker image build workflow, and deploying the system on Kubernetes with a CDC-based data pipeline
 - **Architecture:** Kubernetes-based microservice architecture with Nginx gateway, FastAPI backend services, PostgreSQL(PostGIS) primary database, Jenkins CI/CD pipeline, and CDC data pipeline using Debezium, Kafka, and MongoDB
