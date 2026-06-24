@@ -15,45 +15,70 @@
 
 ### 🏗️ Infrastructure & DevOps
 <p>
-  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white">
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white">
-  <img src="https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white">
-  <img src="https://img.shields.io/badge/ArgoCD-EF7B4D?style=for-the-badge&logo=argo&logoColor=white">
-  <img src="https://img.shields.io/badge/GitLab-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white">
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black">
-  <img src="https://img.shields.io/badge/VirtualBox-183A61?style=for-the-badge&logo=virtualbox&logoColor=white">
-  <img src="https://img.shields.io/badge/Ubuntu-E94333?style=for-the-badge&logo=ubuntu&logoColor=white">
+  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white">
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white">
+  <img src="https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white">
+  <img src="https://img.shields.io/badge/Argo%20CD-EF7B4D?style=flat-square&logo=argo&logoColor=white">
+  <img src="https://img.shields.io/badge/GitLab%20CI-FC6D26?style=flat-square&logo=gitlab&logoColor=white">
+  <img src="https://img.shields.io/badge/Harbor-60B932?style=flat-square&logo=harbor&logoColor=white">
+  <img src="https://img.shields.io/badge/Kong%20Gateway-003459?style=flat-square&logo=kong&logoColor=white">
+  <img src="https://img.shields.io/badge/Istio-466BB0?style=flat-square&logo=istio&logoColor=white">
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black">
+  <img src="https://img.shields.io/badge/Ubuntu-E95420?style=flat-square&logo=ubuntu&logoColor=white">
 </p>
 
-- **Network & Security:** `TCP/IP`, `NAT`, `Firewall(UFW/IPTables)`, `Kernel & Shell Scripting`
+- **Infrastructure:** `Kubernetes`, `Docker`, `Harbor`, `Argo CD`
+- **Gateway & Service Mesh:** `Kong API Gateway`, `Istio`, `mTLS`
+- **CI/CD:** `Jenkins`, `GitLab CI`, `GitOps`
+- **Network & Security:** `JWT`, `HttpOnly Cookie`, `BFF`, `NAT`, `Firewall`, `Linux`
 
-### 🌐 Backend & Data Pipeline
+### 🌐 Backend & Communication
 <p>
-  <img src="https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi&logoColor=white">
-  <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white">
-  <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white">
-  <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white">
-  <img src="https://img.shields.io/badge/Apache%20Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white">
-  <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white">
+  <img src="https://img.shields.io/badge/Java-007396?style=flat-square&logo=openjdk&logoColor=white">
+  <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white">
+  <img src="https://img.shields.io/badge/Spring%20Data%20JPA-6DB33F?style=flat-square&logo=spring&logoColor=white">
+  <img src="https://img.shields.io/badge/gRPC-244C5A?style=flat-square&logo=grpc&logoColor=white">
+  <img src="https://img.shields.io/badge/Redisson-DC382D?style=flat-square&logo=redis&logoColor=white">
+  <img src="https://img.shields.io/badge/FastAPI-005571?style=flat-square&logo=fastapi&logoColor=white">
+  <img src="https://img.shields.io/badge/Apache%20Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white">
 </p>
+
+- **Backend:** `Java`, `Spring Boot`, `Spring Data JPA`, `FastAPI`
+- **Inter-service Communication:** `gRPC`, `REST API`
+- **Realtime & Messaging:** `Redis Pub/Sub`, `WebSocket`, `Kafka`
 
 ### 💾 Database & Storage
 <p>
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white">
-  <img src="https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white">
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white">
-  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white">
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white">
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white">
+  <img src="https://img.shields.io/badge/MariaDB-003545?style=flat-square&logo=mariadb&logoColor=white">
+  <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white">
+  <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white">
 </p>
 
-- **Data Engineering:** `CDC(Postgres to Mongo)`, `Data Modeling`
+- **Database:** `MySQL`, `PostgreSQL`, `MariaDB`, `MongoDB`
+- **Cache & Session Store:** `Redis`
+- **Data Engineering:** `CDC`, `Data Modeling`
+
+### 📊 Observability
+<p>
+  <img src="https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white">
+  <img src="https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white">
+  <img src="https://img.shields.io/badge/Elasticsearch-005571?style=flat-square&logo=elasticsearch&logoColor=white">
+  <img src="https://img.shields.io/badge/Fluent%20Bit-49BDA5?style=flat-square&logo=fluentbit&logoColor=white">
+  <img src="https://img.shields.io/badge/Kibana-E8478B?style=flat-square&logo=kibana&logoColor=white">
+</p>
+
+- **Metrics:** `Prometheus`, `Grafana`
+- **Logging:** `EFK`, `Elasticsearch`, `Fluent Bit`, `Kibana`
 
 ### 🗺️ GIS & Scientific Computing
 <p>
-  <img src="https://img.shields.io/badge/QGIS-589632?style=for-the-badge&logo=qgis&logoColor=white">
-  <img src="https://img.shields.io/badge/ArcGIS-005E95?style=for-the-badge&logo=arcgis&logoColor=white">
-  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
-  <img src="https://img.shields.io/badge/MATLAB-ED1C24?style=for-the-badge&logo=mathworks&logoColor=white">
+  <img src="https://img.shields.io/badge/QGIS-589632?style=flat-square&logo=qgis&logoColor=white">
+  <img src="https://img.shields.io/badge/ArcGIS-005E95?style=flat-square&logo=arcgis&logoColor=white">
+  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=c%2B%2B&logoColor=white">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white">
+  <img src="https://img.shields.io/badge/MATLAB-ED1C24?style=flat-square&logo=mathworks&logoColor=white">
 </p>
 
 ---
@@ -72,9 +97,29 @@ This experience builds the foundation for **navigation data analysis and HD Map 
 
 ---
 
+## 🏆 Project: WanderPool (Hyundai Autoever Cloud Training Final Project, In Progress)
+
+- **Description:** Cloud-native MSA-based carpool platform designed around trusted ride matching, map-based mobility features, real-time location sharing, and secure microservice communication
+- **Role:** Map service backend developer and cloud infrastructure engineer responsible for implementing the map domain service, OAuth-based authentication flow, API gateway integration, Kubernetes deployment, CI/CD, and observability
+- **Key Skills:** Java, Spring Boot, gRPC, MySQL, PostgreSQL, Redis, Docker, Kubernetes, Kong API Gateway, Istio, Jenkins, GitLab CI, Harbor, Argo CD, Prometheus, Grafana, EFK
+- **Focus:** Designing and operating a Kubernetes-based MSA platform with map service development, secure OAuth authentication flow, gateway-level JWT verification, service mesh traffic control, private image registry, GitOps deployment, and monitoring/logging infrastructure
+- **Architecture:** Microservice architecture composed of auth, member, party, and map services, with Kong API Gateway, Istio mTLS service mesh, Redis-based realtime/location session handling, private Harbor registry, Argo CD GitOps deployment, and Prometheus/Grafana/EFK observability stack
+
+### Key Contributions
+- Developed the **map domain service** to support map-based ride flow, location handling, and mobility service features
+- Integrated **OAuth-based authentication flow** with **HttpOnly Cookie**, **Next.js BFF**, and **Redis-based refresh token session management**
+- Applied **Kong Gateway JWT verification** to block unauthenticated requests before they reached internal backend services
+- Troubleshot **Kong 503 errors under Istio STRICT mTLS** by changing Kong upstream routing from direct Pod IP access to Kubernetes Service-based routing
+- Separated **API traffic and data-layer traffic** by excluding MySQL, PostgreSQL, and Redis ports from Istio sidecar outbound interception
+- Built a private CI/CD pipeline using **GitLab, Jenkins, Harbor, and Argo CD** to manage source code, image build, private registry push, and GitOps deployment
+- Established observability using **Prometheus, Grafana, Elasticsearch, Fluent Bit, and Kibana** for metrics and centralized logging
+
+---
+
 ## 🏆 Project: Watt-Up (Hyundai Autoever Cloud Training Mini Project, Completed)
+
 - **Description:** Team mini project for developing an EV charging station information service during Hyundai Autoever Cloud Training program
-- **Role:** - **Role:** Backend API implementation and containerized service deployment with CI/CD automation using Docker, Kubernetes, and Jenkins
+- **Role:** Backend API implementation and containerized service deployment with CI/CD automation using Docker, Kubernetes, and Jenkins
 - **Key Skills:** FastAPI, PostgreSQL(PostGIS), MongoDB, Docker, Docker Compose, Kubernetes, Kafka, Debezium, Jenkins
 - **Focus:** Implementing backend APIs, managing containerized services, configuring Jenkins-based CI/CD pipeline for automated Docker image build workflow, and deploying the system on Kubernetes with a CDC-based data pipeline
 - **Architecture:** Kubernetes-based microservice architecture with Nginx gateway, FastAPI backend services, PostgreSQL(PostGIS) primary database, Jenkins CI/CD pipeline, and CDC data pipeline using Debezium, Kafka, and MongoDB
