@@ -3,7 +3,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,25&height=260&section=header&text=Cloud-Native%20DevOps%20Engineer&fontSize=52&fontColor=ffffff" />
 </p>
 
-## 👤 Introduction
+## 👤 Introduction | 소개
 - 🎓 **Double Major:** Geospatial Information Engineering and Electrical & Electronic Engineering
 - ☁️ **Education:** **Hyundai Autoever Cloud Training (3rd Batch)**
 - 🔭 **Focus:** Scalable Backend Systems, Cloud Native Infrastructure, and Spatial Data Pipelines
@@ -11,7 +11,7 @@
 
 ---
 
-## 🛠 Tech Stack
+## 🛠 Tech Stack | 기술 스택
 
 ### 🏗️ Infrastructure & DevOps
 <p>
@@ -38,7 +38,7 @@
   <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white">
   <img src="https://img.shields.io/badge/Spring%20Data%20JPA-6DB33F?style=flat-square&logo=spring&logoColor=white">
   <img src="https://img.shields.io/badge/gRPC-244C5A?style=flat-square&logo=grpc&logoColor=white">
-  <img src="https://img.shields.io/badge/Redisson-DC382D?style=flat-square&logo=redis&logoColor=white">
+  <img src="https://img.shields.io/badge/Redis%20Pub/Sub-DC382D?style=flat-square&logo=redis&logoColor=white">
   <img src="https://img.shields.io/badge/FastAPI-005571?style=flat-square&logo=fastapi&logoColor=white">
   <img src="https://img.shields.io/badge/Apache%20Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white">
 </p>
@@ -83,7 +83,7 @@
 
 ---
 
-## 🗺️ Mobility / Navigation Data Experience
+## 🗺️ Mobility / Navigation Data Experience (모빌리티 및 공간정보 경험)
 
 Experience analyzing spatial and positioning data relevant to navigation and mobility services.
 
@@ -97,32 +97,38 @@ This experience builds the foundation for **navigation data analysis and HD Map 
 
 ---
 
-## 🏆 Project: WanderPool (Hyundai Autoever Cloud Training Final Project, In Progress)
+## 🏆 Awards & Featured Projects
 
-- **Description:** Cloud-native MSA-based carpool platform designed around trusted ride matching, map-based mobility features, real-time location sharing, and secure microservice communication
+### 🥇 WanderPool — Outstanding Project  
+**Hyundai Autoever Cloud Training Final Project**
+
+- **Description:** 클라우드 네이티브 MSA 기반의 신뢰도 기반 카풀 플랫폼 (Cloud-native MSA-based trust-driven carpool platform)
 - **Role:** Map service backend developer and cloud infrastructure engineer responsible for implementing the map domain service, OAuth-based authentication flow, API gateway integration, Kubernetes deployment, CI/CD, and observability
+- **Award:** Selected as an outstanding project in the Hyundai Autoever Cloud Training final project evaluation
 - **Key Skills:** Java, Spring Boot, gRPC, MySQL, PostgreSQL, Redis, Docker, Kubernetes, Kong API Gateway, Istio, Jenkins, GitLab CI, Harbor, Argo CD, Prometheus, Grafana, EFK
 - **Focus:** Designing and operating a Kubernetes-based MSA platform with map service development, secure OAuth authentication flow, gateway-level JWT verification, service mesh traffic control, private image registry, GitOps deployment, and monitoring/logging infrastructure
-- **Architecture:** Microservice architecture composed of auth, member, party, and map services, with Kong API Gateway, Istio mTLS service mesh, Redis-based realtime/location session handling, private Harbor registry, Argo CD GitOps deployment, and Prometheus/Grafana/EFK observability stack
+- **Architecture:** Microservice architecture composed of auth, member, party, and map services, with Kong API Gateway, Istio mTLS service mesh, Redis Pub/Sub-based realtime location broadcasting, private Harbor registry, Argo CD GitOps deployment, and Prometheus/Grafana/EFK observability stack
 
-### Key Contributions
-- Developed the **map domain service** to support map-based ride flow, location handling, and mobility service features
+#### Key Contributions
+- Developed the **map domain service** to support map-based ride flow, location handling, route preview, ETA calculation, and mobility service features
 - Integrated **OAuth-based authentication flow** with **HttpOnly Cookie**, **Next.js BFF**, and **Redis-based refresh token session management**
 - Applied **Kong Gateway JWT verification** to block unauthenticated requests before they reached internal backend services
 - Troubleshot **Kong 503 errors under Istio STRICT mTLS** by changing Kong upstream routing from direct Pod IP access to Kubernetes Service-based routing
-- Separated **API traffic and data-layer traffic** by excluding MySQL, PostgreSQL, and Redis ports from Istio sidecar outbound interception
+- Solved **multi-pod WebSocket message loss** by applying Redis Pub/Sub fan-out for realtime location broadcasting
 - Built a private CI/CD pipeline using **GitLab, Jenkins, Harbor, and Argo CD** to manage source code, image build, private registry push, and GitOps deployment
 - Established observability using **Prometheus, Grafana, Elasticsearch, Fluent Bit, and Kibana** for metrics and centralized logging
 
 ---
 
-## 🏆 Project: Watt-Up (Hyundai Autoever Cloud Training Mini Project, Completed)
+### 🥇 Watt-Up — Outstanding Project  
+**Hyundai Autoever Cloud Training first Project**
 
-- **Description:** Team mini project for developing an EV charging station information service during Hyundai Autoever Cloud Training program
-- **Role:** Backend API implementation and containerized service deployment with CI/CD automation using Docker, Kubernetes, and Jenkins
+- **Description:** EV charging station information service developed as a team mini project during Hyundai Autoever Cloud Training
+- **Role:** Backend API developer and infrastructure engineer responsible for API implementation, database integration, containerized deployment, and Jenkins-based CI pipeline
+- **Award:** Selected as an outstanding project in the Hyundai Autoever Cloud Training first project evaluation
 - **Key Skills:** FastAPI, PostgreSQL(PostGIS), MongoDB, Docker, Docker Compose, Kubernetes, Kafka, Debezium, Jenkins
-- **Focus:** Implementing backend APIs, managing containerized services, configuring Jenkins-based CI/CD pipeline for automated Docker image build workflow, and deploying the system on Kubernetes with a CDC-based data pipeline
-- **Architecture:** Kubernetes-based microservice architecture with Nginx gateway, FastAPI backend services, PostgreSQL(PostGIS) primary database, Jenkins CI/CD pipeline, and CDC data pipeline using Debezium, Kafka, and MongoDB
+- **Focus:** Implementing backend APIs, managing containerized services, configuring Jenkins-based CI/CD pipeline, and deploying the system on Kubernetes with a CDC-based data pipeline
+- **Architecture:** Kubernetes-based service architecture with Nginx gateway, FastAPI backend services, PostgreSQL(PostGIS) primary database, Jenkins CI pipeline, and CDC data pipeline using Debezium, Kafka, and MongoDB
 
 ---
 
@@ -184,12 +190,12 @@ B.S. in **Geospatial Information Engineering**
 Double Major: **Electrical and Electronic Engineering**
 
 Relevant Coursework
-- GIS Introduction
-- Photogrammetry
-- GPS and Satellite Positioning
-- Spatial Analysis
-- Object-Oriented Programming
-- Spatial Information Programming
+- GIS 개론
+- Photogrammetry (사진측량학)
+- GPS 개론
+- Spatial Analysis (공간분석)
+- Conputer Networks (컴퓨터 네트워크)
+- Computer Architectures (컴퓨터 구조론)
 
 ---
 
@@ -199,7 +205,7 @@ Relevant Coursework
 
 ---
 
-## 🏫 Leadership & Activities
+## 🏫 Leadership & Activities (리더십 및 활동)
 
 ### 공간정보공학과 학생회장 (2025 ~ 2026)
 
